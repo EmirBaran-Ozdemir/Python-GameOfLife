@@ -14,6 +14,11 @@ These rules, which compare the behavior of the automaton to real life, can be co
 - All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed, live or dead; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations.
+#### Examples of Patterns
+Many different types of patterns occur in the Game of Life, which are classified according to their behaviour. Common pattern types include: still lifes, which do not change from one generation to the next; oscillators, which return to their initial state after a finite number of generations; and spaceships, which translate themselves across the grid.
+
+![Blinker](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#/media/File:Game_of_life_blinker.gif)
+
 #### Required Libraries
 - [numpy]
 - [pygame]
